@@ -1,0 +1,121 @@
+/*Carter Fairchild zh24rq 8446957*/
+html {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: rgb(236, 231, 207);
+    margin: 0px;
+    padding: 0px;
+}
+
+body>article {
+    margin: 0px 0px 0px 10px;
+    padding: 70px 0px 0px 0px;
+}
+
+nav {
+    background-color: rgb(221, 181, 48);
+    position: fixed;
+    width: 100%;
+    margin: 0px;
+    height: 80px;
+    padding: 10px 0px 0px 10px;
+    z-index: 10;
+    border-bottom: 3px solid rgb(194, 158, 42);
+}
+
+@font-face {
+    font-family: coolTitleFont;
+    src: url('Matcha Style.ttf');
+}
+
+@font-face {
+    font-family: cheese;
+    src: url('MoonCheese-Regular.ttf');
+}
+
+.cheese {
+    font-family: cheese;
+}
+
+.otherFont {
+    font-family: coolTitleFont;
+}
+
+.logo {
+    height: 70px;
+    width: auto;
+    float: left;
+}
+
+p {
+    margin-right: 10px;
+    text-align: justify;
+}
+
+th,
+tr,
+td {
+    border: 2px solid rgb(221, 181, 48);
+}
+
+table {
+    border: 2px solid rgb(221, 181, 48);
+    margin: 0 auto;
+    width: 90%;
+}
+
+.navBar {
+    display: inline-block;
+    width: auto;
+    height: auto;
+    font-family: coolTitleFont, Times, serif;
+    margin: 0px 5px 5px 5px;
+    padding: 5px;
+    background-color: rgb(194, 158, 42);
+    border: 2px solid rgb(194, 158, 42);
+    font-size: 15px;
+}
+
+.navBar:hover {
+    background-color: rgb(245, 200, 53);
+}
+
+h1 {
+    font-family: coolTitleFont, Times, serif;
+    padding: 0px 40px 0px 40px;
+    position: relative;
+    text-align: center;
+    font-size: 50px;
+}
+
+.product {
+    display: inline-block;
+    width: 400px;
+    height: 200px;
+    padding: 15px;
+    margin: 10px 10px 10px 0px;
+    border: 3px solid rgb(194, 158, 42);
+    text-align: center;
+    background-color: rgb(245, 200, 53);
+}
+
+.productList {
+    text-align: center;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    height: 10px;
+    background-color: rgb(245, 200, 53);
+    width: 100%;
+    margin-left: -10px;
+    /*The page has a margin for all of 'body' and I don't wanna fix it*/
+    border-top: 3px solid rgb(194, 158, 42);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
